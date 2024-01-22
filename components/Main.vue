@@ -25,7 +25,7 @@
                             <ion-icon name="logo-discord" aria-hidden="true"></ion-icon>
                         </div>
 
-                        <span class="span"><a href="/server">Support Server</a></span>
+                        <span class="span"><a href="/support">Support Server</a></span>
                     </a>
                 </div>
 

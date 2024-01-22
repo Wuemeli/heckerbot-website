@@ -1,8 +1,6 @@
 <template>
           <footer class="footer">
 
-
-
             <div class="footer-bottom">
               <div class="container">
 
@@ -14,11 +12,11 @@
                 <ul class="footer-bottom-list">
 
                   <li>
-                    <a href="#" class="footer-bottom-link">Support</a>
+                    <a href="/support" class="footer-bottom-link">Support</a>
                   </li>
 
                   <li>
-                    <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                    <a href="/tos" class="footer-bottom-link">Privacy Policy</a>
                   </li>
 
                 </ul>

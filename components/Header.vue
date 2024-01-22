@@ -25,7 +25,7 @@
                 <ul class="navbar-list">
 
                     <li>
-                        <a href="#" class="navbar-link">Home</a>
+                        <a href="/" class="navbar-link">Home</a>
                     </li>
 
                     <li>
@@ -40,10 +40,6 @@
                         <a href="#feature" class="navbar-link">Features</a>
                     </li>
 
-                    <li>
-                        <a href="/server" class="navbar-link">Server</a>
-                    </li>
-
                 </ul>
 
             </nav>
@@ -51,7 +47,7 @@
             <div class="btn-group">
 
 
-                <a href="https" class="btn btn-primary">Invite Bot</a>
+                <a href="/invite" class="btn btn-primary">Invite Bot</a>
             </div>
 
             <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
