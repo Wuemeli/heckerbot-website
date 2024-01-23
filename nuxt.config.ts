@@ -41,7 +41,7 @@ export default {
     CleanParam: 'query',
   },
 
-  modules: ['@nuxtjs/robots', 'nuxt-simple-sitemap', '@nuxtjs/axios'],
+  modules: ['@nuxtjs/robots', 'nuxt-simple-sitemap'],
 
   postcss: {
     plugins: {
