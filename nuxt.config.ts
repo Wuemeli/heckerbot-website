@@ -27,7 +27,6 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
-
   routeRules: {
     '/invite': { redirect: 'https://discord.com/api/oauth2/authorize?client_id=1092475154791145542&permissions=30781964549365&scope=bot%20applications.commands' },
     '/support': { redirect: 'https://discord.gg/PfR4MX3cvz' },
@@ -42,7 +41,7 @@ export default {
     CleanParam: 'query',
   },
 
-  modules: ['@nuxtjs/robots', 'nuxt-simple-sitemap'],
+  modules: ['@nuxtjs/robots', 'nuxt-simple-sitemap', '@nuxtjs/axios'],
 
   postcss: {
     plugins: {

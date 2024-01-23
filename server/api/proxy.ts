@@ -1,6 +1,10 @@
-import axios from 'axios';
+import { defineEventHandler } from 'h3';
 
 export default defineEventHandler(async (event) => {
-    const response = await axios.get('http://paid1.daki.cc:4043/stats');
-    return response.data;
+    try {
+        const response = this.$axios.$get('http://paid1.daki.cc:4043/stats');
+        return response;
+    } catch (error) {
+        console.error(`Error making GET request: ${error}`);
+    }
 });
