@@ -1,7 +1,9 @@
 <template>
     <div>
-        <Header />
-        <Main />
+        <home />
+        <stats />
+        <features />
+        <invitenow />
         <Footer />
     </div>
 </template>

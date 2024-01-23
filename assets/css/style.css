@@ -16,6 +16,11 @@
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 :root {
 
   /**

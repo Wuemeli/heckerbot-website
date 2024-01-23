@@ -31,6 +31,7 @@ export default {
   routeRules: {
     '/invite': { redirect: 'https://discord.com/api/oauth2/authorize?client_id=1092475154791145542&permissions=30781964549365&scope=bot%20applications.commands' },
     '/support': { redirect: 'https://discord.gg/PfR4MX3cvz' },
+    '/github': { redirect: 'https://github.com/Wuemeli/heckerbot' },
   },
 
   css: ['~/assets/css/style.css'],
@@ -43,6 +44,12 @@ export default {
 
   modules: ['@nuxtjs/robots', 'nuxt-simple-sitemap'],
 
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 
 }
 
