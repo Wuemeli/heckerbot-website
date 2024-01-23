@@ -78,7 +78,7 @@ export default {
         }
     },
     mounted() {
-        fetch('http://paid1.daki.cc:4043/stats').then(response => response.json()).then(response => {
+        fetch('https://api.heckerbot.dev/stats').then(response => response.json()).then(response => {
             this.stats = response;
         });
     }
