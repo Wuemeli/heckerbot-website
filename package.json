@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@nuxtjs/robots": "^3.0.0",
+    "axios": "^1.6.5",
     "nuxt-simple-sitemap": "^4.4.1",
     "vue3-marquee": "^4.2.0-beta.1"
   }
