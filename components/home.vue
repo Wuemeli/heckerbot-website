@@ -17,14 +17,15 @@
                 </p>
 
                 <div class="btn-group">
-                    <a href="/invite" class="btn btn-primary">Invite Bot</a>
+                    <a href="/invite" class="btn btn-primary plausible-event-name=Invite+Bot">Invite Bot</a>
 
-                    <a href="/support" class="play-btn">
+                    <a href="/support" class="play-btn plausible-event-name=Support+Click">
                         <div class="icon">
                             <ion-icon name="logo-discord" aria-hidden="true"></ion-icon>
                         </div>
 
-                        <span class="span"><a href="/support">Support Server</a></span>
+                        <span class="span"><a clas="plausible-event-name=Support+Click" href="/support">Support
+                                Server</a></span>
                     </a>
                 </div>
 

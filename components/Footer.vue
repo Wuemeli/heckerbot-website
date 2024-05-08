@@ -8,17 +8,17 @@
         </p>
         <ul class="footer-bottom-list">
           <li>
-            <a href="/support" class="footer-bottom-link">
+            <a href="/support" class="footer-bottom-link plausible-event-name=Invite+Bot">
               <ion-icon name="logo-discord" aria-hidden="true"></ion-icon>
             </a>
           </li>
           <li>
-            <a href="/tos" class="footer-bottom-link">
+            <a href="/tos" class="footer-bottom-link plausible-event-name=Tos+Click">
               <ion-icon name="lock-closed-outline" aria-hidden="true"></ion-icon>
             </a>
           </li>
           <li>
-            <a href="/github" class="footer-bottom-link">
+            <a href="/github" class="footer-bottom-link plausible-event-name=Github+Click">
               <ion-icon name="logo-github" aria-hidden="true"></ion-icon>
             </a>
           </li>
