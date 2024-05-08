@@ -12,7 +12,7 @@
                 <h1 class="h1 hero-title">Heckerbot: Your Discord Buddy</h1>
 
                 <p class="hero-text">
-                    Heckerbot kepps your community secure and entertained. Heckerbot can be
+                    Heckerbot keeps your community secure and entertained. Heckerbot can be
                     used in many ways such as: Backuping, Fun, Games, Utility and more
                 </p>
 
