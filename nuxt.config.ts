@@ -11,7 +11,8 @@ export default {
       },
       script: [
         { type: 'text/javascript', hid: "main", body: true, src: '/js/script.js' },
-        { type: 'text/javascript', hid: "main", body: true, src: 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js' }
+        { type: 'text/javascript', hid: "main", body: true, src: 'https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js' },
+        { defer: true, dataDomain: "heckerbot.dev", src: "https://googleisbad.wuemeli.com/js/script.js" }
       ],
       meta: [
         { hid: 'description', name: 'description', content: 'Explore Heckerbot\'s Features, Commands, and more. Heckerbot is a Discord bot created by Wuemeli, a web developer and designer.' },
